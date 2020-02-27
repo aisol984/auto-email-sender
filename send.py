@@ -134,12 +134,12 @@ def send_mail(receiver_info):
       msgRoot.attach(msgImage)
 
       # Send the email (this example assumes SMTP authentication is required)
-      # smtp = smtplib.SMTP('smtp.gmail.com', 587)
-      # smtp.ehlo()
-      # smtp.starttls()
-      # smtp.login(strFrom, 'morgan1401')
-      # smtp.sendmail(strFrom, strTo, msgRoot.as_string())
-      # smtp.quit()
+      smtp = smtplib.SMTP('smtp.gmail.com', 587)
+      smtp.ehlo()
+      smtp.starttls()
+      smtp.login(strFrom, 'morgan1401')
+      smtp.sendmail(strFrom, strTo, msgRoot.as_string())
+      smtp.quit()
     except Exception as e:
       return None
     return receiver_info[0]
