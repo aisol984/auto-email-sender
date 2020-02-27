@@ -1,0 +1,119 @@
+
+.wrapper1{
+    height: 850px;
+    background-color: #F5F5F5;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.wrapper2{
+    height: 850px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1 {
+    margin: 0px;
+    font-size: 90px;
+    padding-top: 20%;
+    color: #595B61;
+    font-family: "bebas_neueregular"
+}
+
+h2{
+    margin: 0px;
+    font-size: 30px;
+    padding-top: 10%;
+    margin-bottom: 50px;
+    color: #AFB0B3;
+}
+h6 {
+    width: 40%;
+    margin-left: 30%;
+    color: #AFB0B3;
+
+}
+.s { 
+    font-size: 70px;
+}
+
+.prompt{
+    height: 800px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h5 {
+    margin: 0px;
+    font-size: 40px;
+    padding-top: 4%;
+    color: grey;
+}
+
+.custom-file{
+    width: 40%
+}
+
+a {
+    color: #777777;
+}
+
+.s {
+    color: #AFB0B3;
+}
+
+.card-tile {
+    color: #747578
+}
+
+#videoElement {
+	width: 500px;
+	height: 375px;
+	background-color:#AFB0B3;
+}
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
+        url('bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+img {
+    height: 30%;
+    width: 30%;
+}
+
+.btn {
+    margin-top: 10%;
+}
+
+.sample {
+    max-width: 10%;
+    min-height: 10%;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.materialboxed {
+    margin: 0px auto; 
+}
+
+.web {
+    margin-top: 100px;
+}
+.btn{
+    margin-top : 50px;
+    margin-bottom: 200px;
+}
+.up {
+    margin-bottom: 200px;
+}
+
+.small_up {
+    margin-bottom: 5px;
+}
+
+.errors {
+  color: red;
+}
